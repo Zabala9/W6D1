@@ -78,11 +78,6 @@ h2 + .user_review {
     border-top: 1px solid black;
 }
 
-nav ul{
-  display: flex;
-  justify-content: space-between;
-}
-
 nav li{
   display: inline-block;
   padding: 20px;
@@ -95,18 +90,31 @@ body{
 
 section{
   width: 700px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 aside{
   width: 180px;
+  display: inline-block;
+  margin-right: 15px;
 }
 
-.all{
-  display: flex;
-  padding: 20px;
+.ingredients-list{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.reviews-person{
-  display: flex;
-  padding: 20px;
+#directions li{
+  /* margin: 15px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+select{
+  margin: 30px;
+}
+
+textarea{
+  width: 300px;
 }
